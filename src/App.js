@@ -4,8 +4,8 @@ import Signup from './Components/Signup/Signup';
 import Login from './Components/Login/Login';
 import LandingPage from './Components/LandingPage/LandingPage';
 import HomePage from './Components/Home/HomePage';
-import CAdvisor from './Components/CAdvisor/cAdvisor';
-import ResponseTimes from './Components/ResponseTimes/ResponseTimes';
+//import CAdvisor from './Components/CAdvisor/cAdvisor';
+//import ResponseTimes from './Components/ResponseTimes/ResponseTimes';
 
 
 function App() {
@@ -17,8 +17,6 @@ function App() {
             <Route path = "/signup" element = {<Signup/>}/>
             <Route path = "/login" element = {<Login/>}/>
             <Route path = "/Home" element = {<HomePage/>}/>
-            <Route path = "/CAdvisor" element = {<CAdvisor/>}/>
-            <Route path = "/ResponseTimes" element = {<ResponseTimes/>}/>
           </Routes>
       </BrowserRouter>
     </div>
